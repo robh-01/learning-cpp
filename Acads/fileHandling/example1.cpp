@@ -29,6 +29,5 @@ int main(){
   cout << "Item cost: " << cost << "\n";
 
   inputStream.close();
-
   return 0;
 }
