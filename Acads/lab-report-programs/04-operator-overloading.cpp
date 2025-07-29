@@ -15,6 +15,7 @@ public:
   }
   Complex operator+(Complex c) {
     Complex temp;
+    cout << this->real << "\n";
     temp.real = this->real + c.real;
     temp.imaginary = this->imaginary + c.imaginary;
     return temp;

@@ -12,6 +12,8 @@ using namespace std;
 
 int main() {
   int num[] = {1001, 56, 69, 45, 74};
-  cout << num << endl;
+  int *pointerToNum;
+  pointerToNum = num;
+  cout << *pointerToNum << endl;
   return 0;
 }
